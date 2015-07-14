@@ -1,0 +1,26 @@
+"name": "coinbridge",
+  "description": "Bridge between Bitcoin and PostgreSQL",
+  "version": "*",
+  "main": "lib/bridge.js",
+  "keywords": [
+    "bitcoin",
+    "rpc",
+    "postgres",
+    "coinbridge"
+  ],
+  "author": "Kinnard Hockenhull <Kinnard@bitbox.mx>",
+  "contributors": [],
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kinnardian/coinbridge-js"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
